@@ -9,7 +9,7 @@ If you are to high or to low the computer will let you know\n\n"
     print(welcome_message)
     personal_money = 100
     question = input("Want to make a bet on how many tries\nwithout going over? ").lower()
-
+# yes and no don't work right now but need to be addressed next.
     if (question[0] == "y") or "Y":
         number_guess = int(input("How many guesses? "))
         wager = int(input("How much do you want to bet? €"))
